@@ -29,7 +29,9 @@ export default function App() {
       <section className="px-10 py-32 max-w-6xl mx-auto">
         <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
           BEYOND AUTOMATION.<br />
-          <span className="text-cyan-400 break-all sm:break-normal">INTO HYPERAUTOMATION.</span>
+          <span className="text-cyan-400 sm:whitespace-nowrap">
+            [ INTO <span className="block sm:inline">HYPERAUTOMATION ]</span>
+          </span>
         </h1>
 
         <p className="mt-8 text-lg text-gray-300 max-w-2xl">
